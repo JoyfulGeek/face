@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/background"
+    tools:context=".activity.TeacherMainActivity">
+
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:text="消息"
+        android:id="@+id/textView13" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="班级信息"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="考勤管理"
+        android:id="@+id/textView15"
+         />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:id="@+id/img1"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:id="@+id/img2"
+        android:src="@android:drawable/ic_dialog_dialer"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:id="@+id/img3"
+        android:src="@android:drawable/ic_lock_idle_alarm" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:layout_marginTop="243dp" />
+</LinearLayout>
+
